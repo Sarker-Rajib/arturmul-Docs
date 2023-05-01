@@ -1,0 +1,211 @@
+/*=== abstracts css start === */
+@font-face {
+  font-family: "SourceSansProRegular";
+  src: url(../font/SourceSansPro-Regular.ttf);
+} /*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address,
+strong,
+i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "SourceSansProRegular";
+  color: #000;
+}
+
+.bg-dark {
+  background: #000;
+}
+
+.bg-gray {
+  background: #e1e1e1;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border {
+  border: 1px solid #000;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.border-top {
+  border-top: 1px solid #000;
+}
+
+.border-left {
+  border-left: 1px solid #000;
+}
+
+.border-right {
+  border-right: 1px solid #000;
+}
+
+.p5 {
+  padding: 5px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+.px5 {
+  padding: 0 5px;
+}
+
+.py10 {
+  padding: 10px 0;
+}
+
+.py15 {
+  padding: 15px 0;
+}
+
+.pl5 {
+  padding-left: 5px;
+}
+
+.px10 {
+  padding: 0 10px;
+}
+
+.py5 {
+  padding: 5px 0;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.dg {
+  display: grid;
+}
+
+.grid-col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.place-center {
+  place-items: center;
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcb {
+  justify-content: space-between;
+}
+
+.w10 {
+  width: 10%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w25 {
+  width: 25%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+/*===// end of base css === */
+/*=== layouts css start === */
+/*===// end of layouts css === */
+/*=== components css start === */
+.paper {
+  max-width: 21cm;
+  margin: auto;
+}
+
+.visitor-control-resident-info .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visitor-control-resident-info .header img {
+  max-width: 160px;
+}
+.visitor-control-resident-info .header .rt-text {
+  width: 160px;
+}
+
+/*===// end of components css === *//*# sourceMappingURL=style.css.map */

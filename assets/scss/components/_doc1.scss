@@ -1,0 +1,15 @@
+.visitor-control-resident-info {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            max-width: 160px;
+        }
+
+        .rt-text {
+            width: 160px;
+        }
+    }
+}
