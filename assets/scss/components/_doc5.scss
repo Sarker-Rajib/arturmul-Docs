@@ -1,0 +1,33 @@
+.sarah-jones {
+    margin-top: 5px;
+
+    .v-card {
+        background: #fff;
+        padding: 35px;
+        margin: auto;
+        max-width: 550px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #000;
+
+        .title {
+            padding-top: 10px;
+            font-size: 40px;
+            color: #535353;
+        }
+
+
+        .button-like {
+            background: #1cdfaf;
+            display: inline-block;
+            color: #fff;
+            border-radius: 5px;
+            padding: 5px 50px;
+            font-size: 25px;
+        }
+
+        .time {
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+}

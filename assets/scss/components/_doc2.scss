@@ -1,12 +1,25 @@
 .Amand-wilson {
     margin-top: 5px;
-    background: #8d8c8c;
+    font-family: 'RobotoSlab';
+
 
     .v-card {
         background: #fff;
         padding: 10px;
         margin: auto;
-        max-width: 360px;
-        min-width: 230px;
+        max-width: 460px;
+        min-height: 230px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #000;
+
+        p {
+            font-size: 16px;
+            padding-bottom: 2px;
+        }
+
+        .values {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
     }
 }

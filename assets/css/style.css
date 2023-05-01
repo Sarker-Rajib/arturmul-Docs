@@ -2,7 +2,12 @@
 @font-face {
   font-family: "SourceSansProRegular";
   src: url(../font/SourceSansPro-Regular.ttf);
-} /*===// end of abstracts css === */
+}
+@font-face {
+  font-family: "RobotoSlab";
+  src: url(../font/RobotoSlab-Regular.ttf);
+}
+/*===// end of abstracts css === */
 /*=== base css start === */
 * {
   margin: 0;
@@ -73,6 +78,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .border {
@@ -250,14 +259,118 @@ body {
 
 .Amand-wilson {
   margin-top: 5px;
-  background: #8d8c8c;
+  font-family: "RobotoSlab";
 }
 .Amand-wilson .v-card {
   background: #fff;
   padding: 10px;
   margin: auto;
-  max-width: 360px;
-  min-width: 230px;
+  max-width: 460px;
+  min-height: 230px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
+}
+.Amand-wilson .v-card p {
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+.Amand-wilson .v-card .values {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.Michael-brown {
+  margin-top: 5px;
+}
+.Michael-brown .v-card {
+  background: #fff;
+  padding: 15px;
+  margin: auto;
+  max-width: 500px;
+  min-height: 310px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
+}
+.Michael-brown .v-card .name {
+  font-size: 30px;
+  padding-bottom: 2px;
+  letter-spacing: 1.2px;
+}
+.Michael-brown .v-card .service {
+  color: #ff9f03;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.Michael-brown .v-card td {
+  font-size: 20px;
+  padding-right: 15px;
+}
+.Michael-brown .v-card .check {
+  color: #4bb17f;
+  font-size: 20px;
+  padding: 15px 0;
+}
+.Michael-brown .v-card .contact {
+  color: #a49e96;
+}
+
+.parking-ticket {
+  margin-top: 5px;
+}
+.parking-ticket .v-card {
+  background: #fff;
+  padding: 15px;
+  margin: auto;
+  max-width: 720px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
+}
+.parking-ticket .v-card .header {
+  padding-top: 10px;
+  font-size: 40px;
+  padding-bottom: 2px;
+  letter-spacing: 1.2px;
+}
+.parking-ticket .v-card .inner-content {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}
+.parking-ticket .v-card p {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.parking-ticket .v-card .contact {
+  color: #a49e96;
+}
+
+.sarah-jones {
+  margin-top: 5px;
+}
+.sarah-jones .v-card {
+  background: #fff;
+  padding: 35px;
+  margin: auto;
+  max-width: 550px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #000;
+}
+.sarah-jones .v-card .title {
+  padding-top: 10px;
+  font-size: 40px;
+  color: #535353;
+}
+.sarah-jones .v-card .button-like {
+  background: #1cdfaf;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 50px;
+  font-size: 25px;
+}
+.sarah-jones .v-card .time {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .incident-report .label {
